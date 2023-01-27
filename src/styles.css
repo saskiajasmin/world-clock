@@ -1,0 +1,78 @@
+html {
+  background: linear-gradient(
+    181.2deg,
+    rgb(181, 239, 249) 10.5%,
+    rgb(254, 254, 254) 86.8%
+  );
+  height: 100%;
+  background-size: cover;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: whitesmoke;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+
+.city {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+
+.city:last-child {
+  border: none;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 30px;
+}
+
+.date {
+  opacity: 0.7;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 48px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+}
